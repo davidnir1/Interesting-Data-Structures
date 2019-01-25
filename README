@@ -1,0 +1,5 @@
+This README will hold important notes such as simplifying assumptions and other comments.
+
+Simplifying assumptions (to remove code which is irrelevant to what we are trying to provide with this code):
+  - We assume that users always give valid input, such as valid indices for our ArrayLists.
+  - In GetSetIncAll we only accept integers as values, but this can easily be replicated for doubles, floats or other types which support incrementing.
