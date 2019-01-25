@@ -7,6 +7,10 @@ import java.util.ArrayList;
  *
  * This structure is based on attaching a timestamp to each element in order to keep track of the latest
  * value this element holds.
+ * This structure utilizes an ArrayList container to actually hold the elements.
+ *
+ * This structure supports generics, under the following assumption:
+ * T has a toString method (for utility printing purposes).
  */
 class GetSetSetAll <T> {
 	private TimeStampedValue globalValue;
